@@ -4,8 +4,8 @@ ENV TZ=Asia/Shanghai
 
 
 COPY requirement.txt /requirement.txt
-COPY pip.conf /root/.pip/pip.conf
-COPY source.list /etc/apt/sources.list
+# COPY pip.conf /root/.pip/pip.conf		# only for mirror in China
+# COPY source.list /etc/apt/sources.list	# only for mirror in China
 COPY jupyter_notebook_config.py /root/.jupyter/
 
 
