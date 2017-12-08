@@ -38,3 +38,4 @@ html5lib==0.9999999
 lxml==3.6.4
 chardet
 xlrd
+Tushare
