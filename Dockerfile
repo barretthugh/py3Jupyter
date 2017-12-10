@@ -18,7 +18,8 @@ RUN wget https://downloads.sourceforge.net/project/ta-lib/ta-lib/0.4.0/ta-lib-0.
 	&& pip install -r /requirement.txt \
 	&& cd .. \
 	&& rm -rf ta-lib \
-	&& rm ta-lib-0.4.0-src.tar.gz
+	&& rm ta-lib-0.4.0-src.tar.gz \
+	&& pip install Tushare
 
 EXPOSE 8888
 
