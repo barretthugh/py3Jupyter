@@ -17,5 +17,30 @@ bs4
 TA-Lib
 html5lib==0.9999999
 lxml==3.6.4
+<<<<<<< HEAD
 chardet
 xlrd
+=======
+pandas
+pandas-datareader
+numpy
+scipy
+jupyter
+urllib3
+requests
+SQLAlchemy
+matplotlib
+plotly
+seaborn
+cufflinks
+psycopg2
+tqdm
+beautifulsoup4
+bs4
+TA-Lib
+html5lib==0.9999999
+lxml==3.6.4
+chardet
+xlrd
+Tushare
+>>>>>>> b64979894afe710292199406eccdc16ba67e8174
