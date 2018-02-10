@@ -18,9 +18,5 @@ TA-Lib
 html5lib==0.9999999
 lxml==3.6.4
 chardet
-<<<<<<< HEAD
 xlrd
 selenium
-=======
-xlrd
->>>>>>> 8037065118e7edf22ebe0d19815f2686784a9db5
