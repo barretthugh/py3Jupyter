@@ -19,16 +19,14 @@ RUN wget https://downloads.sourceforge.net/project/ta-lib/ta-lib/0.4.0/ta-lib-0.
 	&& cd .. \
 	&& rm -rf ta-lib \
 	&& rm ta-lib-0.4.0-src.tar.gz \
-<<<<<<< HEAD
 	&& apt-get update \
 	&& curl https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb -o /chrome.deb \
 	&& dpkg -i /chrome.deb || apt-get install -yf \
 	&& rm /chrome.deb \
 	&& curl https://chromedriver.storage.googleapis.com/2.35/chromedriver_linux64.zip -o /usr/local/bin/chromedriver \
-	&& chmod +x /usr/local/bin/chromedriver
-=======
+	&& chmod +x /usr/local/bin/chromedriver \
 	&& pip install Tushare
->>>>>>> 8037065118e7edf22ebe0d19815f2686784a9db5
+
 
 EXPOSE 8888
 
