@@ -26,6 +26,7 @@ RUN wget https://downloads.sourceforge.net/project/ta-lib/ta-lib/0.4.0/ta-lib-0.
 	&& curl https://chromedriver.storage.googleapis.com/2.35/chromedriver_linux64.zip -o /usr/local/bin/chromedriver.zip \
 	&& apt-get install unzip \
 	&& unzip /usr/local/bin/chromedriver.zip \
+	&& mv /chromedriver /usr/local/bin/ \
 	&& rm /usr/local/bin/chromedriver.zip \
 	&& chmod +x /usr/local/bin/chromedriver \
 	&& pip install Tushare
