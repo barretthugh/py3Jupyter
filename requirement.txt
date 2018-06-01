@@ -2,6 +2,7 @@ pandas
 pandas-datareader
 numpy
 scipy
+tables
 jupyter
 urllib3
 requests
@@ -10,7 +11,7 @@ matplotlib
 plotly
 seaborn
 cufflinks
-psycopg2
+psycopg2-binary
 tqdm
 beautifulsoup4
 bs4

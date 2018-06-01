@@ -1,6 +1,6 @@
 # py3Jupyter
 
-base image: python:3.6.2-jessie
+base image: python:3.6.5-jessie
 
 pandas
 
@@ -9,6 +9,8 @@ pandas-datareader
 numpy
 
 scipy
+
+tables
 
 jupyter
 
