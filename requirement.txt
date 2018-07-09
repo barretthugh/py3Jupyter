@@ -22,3 +22,6 @@ chardet
 xlrd
 selenium
 unidecode
+ipywidgets
+jupyterlab
+gensim
